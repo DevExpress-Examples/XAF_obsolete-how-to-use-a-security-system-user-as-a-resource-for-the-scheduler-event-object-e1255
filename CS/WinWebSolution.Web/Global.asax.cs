@@ -13,7 +13,7 @@ namespace WinWebSolution.Web {
             InitializeComponent();
         }
         protected void Application_Start(Object sender, EventArgs e) {
-            WebApplication.OldStyleLayout = false;
+            
 
 #if EASYTEST
 			DevExpress.ExpressApp.Web.TestScripts.TestScriptsManager.EasyTestEnabled = true;
@@ -28,10 +28,11 @@ namespace WinWebSolution.Web {
 				WebApplication.Instance.ConnectionString = ConfigurationManager.ConnectionStrings["EasyTestConnectionString"].ConnectionString;
 			}
 #endif
-            WebApplication.Instance.ConnectionString = Demo.CodeCentralExampleInMemoryDataStoreProvider.ConnectionString;
             if (ConfigurationManager.ConnectionStrings["ConnectionString"] != null) {
                 WebApplication.Instance.ConnectionString = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
             }
+            DevExpress.ExpressApp.Xpo.InMemoryDataStoreProvider.Register();
+            WebApplication.Instance.ConnectionString = DevExpress.ExpressApp.Xpo.InMemoryDataStoreProvider.ConnectionString;
             WebApplication.Instance.Setup();
             WebApplication.Instance.Start();
         }

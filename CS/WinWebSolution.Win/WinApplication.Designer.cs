@@ -41,10 +41,6 @@ namespace WinWebSolution.Win {
             this.authenticationStandard3 = new DevExpress.ExpressApp.Security.AuthenticationStandard();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
-            // module1
-            // 
-            this.module1.AdditionalExportedTypes.Add(typeof(DevExpress.Xpo.XPObjectType));
-            // 
             // module5
             // 
             this.module5.AllowValidationDetailsAccess = true;

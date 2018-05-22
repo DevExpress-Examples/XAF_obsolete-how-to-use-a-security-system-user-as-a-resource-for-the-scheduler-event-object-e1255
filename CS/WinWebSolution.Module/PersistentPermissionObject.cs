@@ -1,3 +1,4 @@
+using DevExpress.ExpressApp.Model;
 using System;
 using DevExpress.Xpo;
 using System.Security;
@@ -52,7 +53,7 @@ namespace WinWebSolution.Module {
             get { return _Group; }
             set { SetPropertyValue("Group", ref _Group, value); }
         }
-        [Custom("PropertyEditorType", "DevExpress.ExpressApp.Editors.DetailPropertyEditor")]
+        [ModelDefault("PropertyEditorType", "DevExpress.ExpressApp.Editors.DetailPropertyEditor")]
         public IPermission Permission {
             get { return _Permission; }
         }

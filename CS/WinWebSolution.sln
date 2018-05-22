@@ -1,34 +1,14 @@
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinWebSolution.Module", "WinWebSolution.Module\WinWebSolution.Module.csproj", "{59A51999-DAB8-4959-93A3-45E8C7216CD4}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinWebSolution.Module.Web", "WinWebSolution.Module.Web\WinWebSolution.Module.Web.csproj", "{49113E0D-2846-4CB3-89E7-10BD09748308}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinWebSolution.Web", "WinWebSolution.Web\WinWebSolution.Web.csproj", "{CA2AAF37-8C09-4F5E-B05F-180D991A3693}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinWebSolution.Module.Win", "WinWebSolution.Module.Win\WinWebSolution.Module.Win.csproj", "{6A73A82F-3207-4C33-B2DC-702069EC95A4}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinWebSolution.Win", "WinWebSolution.Win\WinWebSolution.Win.csproj", "{0E1F3465-62BF-4D0F-82F1-99C8419BB798}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

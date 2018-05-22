@@ -1,3 +1,4 @@
+using DevExpress.ExpressApp.Model;
 using System;
 using System.Xml;
 using DevExpress.Xpo;
@@ -122,15 +123,15 @@ namespace WinWebSolution.Module {
             }
         }
         [Indexed]
-        [Custom("DisplayFormat", "{0:G}")]
-        [Custom("EditMask", "G")]
+        [ModelDefault("DisplayFormat", "{0:G}")]
+        [ModelDefault("EditMask", "G")]
         public DateTime StartOn {
             get { return _StartOn; }
             set { SetPropertyValue("StartOn", ref _StartOn, value); }
         }
         [Indexed]
-        [Custom("DisplayFormat", "{0:G}")]
-        [Custom("EditMask", "G")]
+        [ModelDefault("DisplayFormat", "{0:G}")]
+        [ModelDefault("EditMask", "G")]
         public DateTime EndOn {
             get { return _EndOn; }
             set { SetPropertyValue("EndOn", ref _EndOn, value); }
