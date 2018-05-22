@@ -1,0 +1,16 @@
+<%@ Register TagPrefix="dxxr" Namespace="DevExpress.XtraReports.Web" Assembly="DevExpress.XtraReports.v9.3.Web" %>
+<dxxr:ReportToolbar runat="server" ItemSpacing="2px" SeparatorHeight="14px" SeparatorWidth="1px" Font-Names="Tahoma" Font-Size="100%">
+  <Styles CssPostfix="xaf" >
+    <ButtonStyle VerticalAlign="Middle" HorizontalAlign="Center"></ButtonStyle>
+    <TextBoxStyle>
+        <Margins MarginLeft="2px" MarginRight="2px" />
+    </TextBoxStyle>
+    <ComboBoxStyle>
+        <Margins MarginLeft="3px" MarginRight="3px" />
+    </ComboBoxStyle>
+    <LabelStyle ForeColor="Black">
+        <Margins MarginLeft="3px" MarginRight="3px" />
+    </LabelStyle>
+  </Styles>
+  <Images ImageFolder="~/App_Themes/XafDefault/{0}/" />
+</dxxr:ReportToolbar>
