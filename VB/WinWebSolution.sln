@@ -1,0 +1,63 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WinWebSolution.Module", "WinWebSolution.Module\WinWebSolution.Module.vbproj", "{8AF86847-1802-46AF-ABAC-E4D602ACD496}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WinWebSolution.Web", "WinWebSolution.Web\WinWebSolution.Web.vbproj", "{C5001BE7-4F67-43FF-93AB-9534438BB334}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WinWebSolution.Win", "WinWebSolution.Win\WinWebSolution.Win.vbproj", "{938111B9-2026-4326-A6F6-6D49377C1930}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WinWebSolution.Module.Web", "WinWebSolution.Module.Web\WinWebSolution.Module.Web.vbproj", "{F873205A-E739-4C88-81B9-52CD44F0E35F}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WinWebSolution.Module.Win", "WinWebSolution.Module.Win\WinWebSolution.Module.Win.vbproj", "{9FDBBEF4-3250-4A2D-A12C-94F238968CA4}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AF86847-1802-46AF-ABAC-E4D602ACD496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF86847-1802-46AF-ABAC-E4D602ACD496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF86847-1802-46AF-ABAC-E4D602ACD496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF86847-1802-46AF-ABAC-E4D602ACD496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5001BE7-4F67-43FF-93AB-9534438BB334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5001BE7-4F67-43FF-93AB-9534438BB334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5001BE7-4F67-43FF-93AB-9534438BB334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5001BE7-4F67-43FF-93AB-9534438BB334}.Release|Any CPU.Build.0 = Release|Any CPU
+		{938111B9-2026-4326-A6F6-6D49377C1930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{938111B9-2026-4326-A6F6-6D49377C1930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{938111B9-2026-4326-A6F6-6D49377C1930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{938111B9-2026-4326-A6F6-6D49377C1930}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F873205A-E739-4C88-81B9-52CD44F0E35F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F873205A-E739-4C88-81B9-52CD44F0E35F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F873205A-E739-4C88-81B9-52CD44F0E35F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F873205A-E739-4C88-81B9-52CD44F0E35F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FDBBEF4-3250-4A2D-A12C-94F238968CA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FDBBEF4-3250-4A2D-A12C-94F238968CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FDBBEF4-3250-4A2D-A12C-94F238968CA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FDBBEF4-3250-4A2D-A12C-94F238968CA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
