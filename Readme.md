@@ -1,3 +1,14 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [WebSchedulerActivityListViewController.cs](./CS/WinWebSolution.Module.Web/WebSchedulerActivityListViewController.cs) (VB: [WebSchedulerActivityListViewController.vb](./VB/WinWebSolution.Module.Web/WebSchedulerActivityListViewController.vb))
+* [Activity.cs](./CS/WinWebSolution.Module/Activity.cs) (VB: [Activity.vb](./VB/WinWebSolution.Module/Activity.vb))
+* [Base.cs](./CS/WinWebSolution.Module/Base.cs) (VB: [Base.vb](./VB/WinWebSolution.Module/Base.vb))
+* [Employee.cs](./CS/WinWebSolution.Module/Employee.cs) (VB: [Employee.vb](./VB/WinWebSolution.Module/Employee.vb))
+* [Group.cs](./CS/WinWebSolution.Module/Group.cs) (VB: [Group.vb](./VB/WinWebSolution.Module/Group.vb))
+* [PersistentPermissionObject.cs](./CS/WinWebSolution.Module/PersistentPermissionObject.cs) (VB: [PersistentPermissionObject.vb](./VB/WinWebSolution.Module/PersistentPermissionObject.vb))
+* [SchedulerActivityListViewController.cs](./CS/WinWebSolution.Module/SchedulerActivityListViewController.cs) (VB: [SchedulerActivityListViewController.vb](./VB/WinWebSolution.Module/SchedulerActivityListViewController.vb))
+<!-- default file list end -->
 # OBSOLETE - How to use a security system user as a resource for the scheduler Event object
 
 
