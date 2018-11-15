@@ -1,3 +1,15 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [WebSchedulerFilterResourcesListViewController.cs](./CS/WinWebSolution.Module.Web/WebSchedulerFilterResourcesListViewController.cs) (VB: [WebSchedulerFilterResourcesListViewController.vb](./VB/WinWebSolution.Module.Web/WebSchedulerFilterResourcesListViewController.vb))
+* [WinSchedulerFilterResourcesListViewController.cs](./CS/WinWebSolution.Module.Win/WinSchedulerFilterResourcesListViewController.cs) (VB: [WinSchedulerFilterResourcesListViewController.vb](./VB/WinWebSolution.Module.Win/WinSchedulerFilterResourcesListViewController.vb))
+* [Activity.cs](./CS/WinWebSolution.Module/Activity.cs) (VB: [Activity.vb](./VB/WinWebSolution.Module/Activity.vb))
+* [Employee.cs](./CS/WinWebSolution.Module/Employee.cs) (VB: [Employee.vb](./VB/WinWebSolution.Module/Employee.vb))
+* [Group.cs](./CS/WinWebSolution.Module/Group.cs) (VB: [Group.vb](./VB/WinWebSolution.Module/Group.vb))
+* [Module.cs](./CS/WinWebSolution.Module/Module.cs) (VB: [Module.vb](./VB/WinWebSolution.Module/Module.vb))
+* [SchedulerFilterResourcesListViewControllerBase.cs](./CS/WinWebSolution.Module/SchedulerFilterResourcesListViewControllerBase.cs) (VB: [SchedulerFilterResourcesListViewControllerBase.vb](./VB/WinWebSolution.Module/SchedulerFilterResourcesListViewControllerBase.vb))
+* [Updater.cs](./CS/WinWebSolution.Module/Updater.cs) (VB: [Updater.vb](./VB/WinWebSolution.Module/Updater.vb))
+<!-- default file list end -->
 # OBSOLETE - How to use a security system user as a resource for the scheduler Event object
 
 
